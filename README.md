@@ -17,6 +17,7 @@ This script will
 4. Compile and Run and classification sample for card
 
 Result - 
+
 ![out put result - click the link to show image](images/01.png)
  
 ## <Step 2 - Following Steps>
@@ -36,7 +37,8 @@ make
 ```
 ls ~/build/intel64/build/
 ```
-[out put result - click the link to show image](images\02.png)
+
+![out put result - click the link to show image](images\02.png)
  
 
 ## <Step3 execute a command>
@@ -62,7 +64,9 @@ wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coc
 tar zxvf ssd_mobilenet_v1_coco_2018_01_28.tar.gz && cd ssd_mobilenet_v1_coco_2018_01_28
 /opt/intel/computer_vision_sdk/deployment_tools/model_optimizer/mo_tf.py --input_model=./frozen_inference_graph.pb --tensorflow_use_custom_operations_config /opt/intel/computer_vision_sdk/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json --tensorflow_object_detection_api_pipeline_config ./pipeline.config --reverse_input_channels
 ```
-[out put result - click the link to show image](images\03.png)
+
+![out put result - click the link to show image](images\03.png)
+
 
 ## <step 2 Run IE / example commands for IE>
 ```
