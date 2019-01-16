@@ -17,7 +17,7 @@ This script will
 4. Compile and Run and classification sample for card
 
 Result - 
-[out put result - click the link to show image](images/01.png)
+![out put result - click the link to show image](images/01.png)
  
 ## <Step 2 - Following Steps>
 After exection, there’s two folder appear in $HOME. (1) Inference_engine_simpile (2) openvino_models
