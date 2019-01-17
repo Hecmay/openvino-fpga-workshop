@@ -35,7 +35,7 @@ make
 
 ## <Step2 – check the result>
 ```
-ls ~/build/intel64/build/
+ls ~/build/intel64/Release/
 ```
 
 ![out put result - click the link to show image](images/02.png)
